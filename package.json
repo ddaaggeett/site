@@ -12,7 +12,7 @@
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server",
-    "client:dev": "webpack-dashboard -t 'webstarter' -- webpack-dev-server",
+    "client:dev": "webpack-dashboard -t 'ddaaggeett' -- webpack-dev-server",
     "client:watch": "webpack",
     "client:build": "npm run clean && NODE_ENV=\"production\" webpack",
     "client:preview": "npm run clean && NODE_ENV=\"production\" webpack-dev-server",
@@ -32,6 +32,7 @@
   "devDependencies": {},
   "dependencies": {
     "autoprefixer": "^7.1.2",
+    "aws-sdk": "^2.176.0",
     "babel-core": "^6.7.2",
     "babel-eslint": "^8.0.0",
     "babel-loader": "^7.1.1",
@@ -62,6 +63,7 @@
     "ip": "^1.1.5",
     "isomorphic-fetch": "^2.2.1",
     "node-sass": "^4.5.3",
+    "nodemailer": "^4.4.1",
     "nodemon": "^1.11.0",
     "postcss-loader": "^2.0.6",
     "prepush": "^3.1.11",

@@ -9,7 +9,7 @@ const ServerHtml = ({ appHtml, dehydratedState }) => (
       <meta charSet='utf-8' />
       <meta name='viewport' content='width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0' />
 
-      <title>node.js webstarter</title>
+      <title>ddaaggeett</title>
 
       <link rel='stylesheet' href={ `/${ outputFiles.css }` } />
     </head>
