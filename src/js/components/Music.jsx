@@ -7,7 +7,7 @@ class Music extends Component {
     render() {
 
         return (
-            <div className='body'>
+            <div>
 
                 <WelcomeMat />
 

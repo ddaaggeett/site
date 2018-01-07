@@ -6,7 +6,7 @@ class Projects extends Component {
 
     render() {
         return (
-            <div className='body'>
+            <div>
 
                 <WelcomeMat />
 

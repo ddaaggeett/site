@@ -8,15 +8,17 @@ import WelcomeMat from './WelcomeMat'
 
 class Home extends Component {
 
-    showOccupation() {
-        console.log("hello")
-    }
-
-
+    // render() {
+    //     return (
+    //         <div>
+    //             <WelcomeMat />
+    //         </div>
+    //     )
+    // }
     render() {
 
         return (
-            <div className='body'>
+            <div>
 
                 <WelcomeMat />
 
