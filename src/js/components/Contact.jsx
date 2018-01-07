@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import MediaQuery from 'react-responsive'
 import WelcomeMat from './WelcomeMat'
 import { emailConfigs } from '../../../configs/emailConfigs'
 
@@ -33,6 +34,33 @@ class Form extends Component {
     render() {
 
         return (
+            <div>
+            <MediaQuery maxWidth={991}>
+            <div id="form_mobile" className="center_item">
+                <input
+                    className="form_item"
+                    placeholder="your email address"
+                    id="email"
+                    type="text"
+                    ref={(input) => this.email = input} />
+                <textarea
+                    className="form_item"
+                    placeholder="hello, stranger"
+                    id="message"
+                    type="text"
+                    ref={(input) => this.message = input} />
+                <button
+                    className="button"
+                    id="form_submit"
+                    onClick={() => {
+                        this.handleSubmitClick()
+                        console.log('email submit')
+                    }}>
+                    Send</button>
+            </div>
+            </MediaQuery>
+
+            <MediaQuery minWidth={992}>
             <div id="form" className="center_item">
                 <input
                     className="form_item"
@@ -55,6 +83,8 @@ class Form extends Component {
                     }}>
                     Send</button>
             </div>
+            </MediaQuery>
+            </div>
         )
     }
 }
@@ -67,7 +97,8 @@ class Contact extends Component {
 
                 <WelcomeMat />
 
-                <div id="center_content">
+                <div className="mobile_vertical">
+                    <h4 className="topic_mobile">contact me:</h4>
                     <Form />
                 </div>
 

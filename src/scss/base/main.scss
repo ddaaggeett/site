@@ -3,6 +3,8 @@ body{
 	font-family: Courier;
 	font-size: 20px;
 	background-color: #E0E0E0;
+	max-width: 100%;
+	overflow-x: hidden;
 }
 #center_content {
 	position: absolute;
@@ -30,6 +32,15 @@ body{
 	width: 50%;
 	text-align: center;
 	left: 100px;
+}
+.topic_mobile {
+	margin-top: 5%;
+	// position: relative;
+	display:block;
+	// width: 50%;
+	// text-align: center;
+	margin-left: 20px;
+	font-size: 20px;
 }
 .icon {
 	margin-top: 20px;
@@ -95,11 +106,12 @@ body{
 	margin-left: 10px;
 }
 #video {
-	border: 11px solid #00f;
+	box-sizing: border-box;
+	border: 6px solid #00f;
 	border-radius: 5px;
 }
 #video:hover {
-	border: 11px solid #00ff00;
+	border: 6px solid #00ff00;
 }
 .media_item {
 	max-width: 100%;
@@ -122,11 +134,25 @@ body{
 	left: 20%;
 	padding: auto;
 }
+#quotes_mobile {
+	width: 100%;
+}
 .quote {
 	max-width: 100%;
 	display: inline-block;
 	margin-left: 20%;
 	margin-right: 18%;
+}
+.quote_mobile {
+	font-size: 14px;
+	max-width: 100%;
+	display: inline-block;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+.quote_mobile a {
+	font-size: 14px;
+	color: blue;
 }
 #xyzline {
 	color: #000000;
@@ -155,7 +181,7 @@ a:hover {
 #greet_mobile{
 	text-align: center;
 	font-size: 30px;
-	margin-left: 3%;
+	background-color: #888888;
 }
 p {
 	font-size: 20px;
@@ -386,9 +412,12 @@ p {
 #form {
 	width: 500px;
 }
+#form_mobile {
+	width: 100%;
+}
 #form_submit {
 	width: 100%;
-    background-color: #4CAF50;
+    background-color: blue;
     color: white;
     padding: 14px 20px;
     margin: 8px 0;

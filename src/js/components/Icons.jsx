@@ -18,7 +18,7 @@ class Icons extends Component {
                             target="_blank" >
                             <img src={softwareIcon}
                                 alt="software"
-                                style={{width: 45, height: 45}} /></a>
+                                style={{width: 45, height: 45, marginLeft: -2}} /></a>
                             <a className="icon_mobile"
                             href="https://twitter.com/ddaaggeett"
                             target="_blank" >
