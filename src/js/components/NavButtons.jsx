@@ -8,7 +8,7 @@ class NavButtons extends Component {
 
         return (
             <div>
-                <MediaQuery maxWidth={991} className="mobile_vertical">
+                <MediaQuery maxWidth={991}>
                     <div className="mobile_vertical">
                         <Link to={'/'}><div className="button_mobile"><p>home</p></div></Link>
                         <Link to={'/projects'}><div className="button_mobile"><p>i make things</p></div></Link>
@@ -17,7 +17,7 @@ class NavButtons extends Component {
                 </MediaQuery>
 
                 <MediaQuery minWidth={992}>
-                    <div id="nav_buttons">
+                    <div className="mobile_vertical">
                         <Link to={'/'}><div className="button"><p>home</p></div></Link>
                         <Link to={'/projects'}><div className="button"><p>i make things</p></div></Link>
                         <Link to={'/contact'}><div className="button"><p>contact me</p></div></Link>

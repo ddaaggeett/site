@@ -26,7 +26,7 @@ class Projects extends Component {
                 </MediaQuery>
 
                 <MediaQuery minWidth={992}>
-                <div id="center_content">
+                <div className="mobile_vertical">
                     <div id="projects">
                         <h2>ongoing projects</h2>
                     </div>

@@ -33,17 +33,20 @@ class WelcomeMat extends Component {
 
 
                 <MediaQuery minWidth={992}>
-                    <h1 id="greet">hi, i'm <span id="name">Dave</span></h1>
-                    <img className="media_item" id="profile_pic" src={profileImage} alt="profile image" />
-                    <Icons />
-                    <DoughnutChart />
+                    <h1 className="mobile_vertical" id="greet">hi, i'm <span id="name">Dave</span></h1>
+                    <div className="mobile_vertical">
+                        <img className="media_item" id="profile_pic" src={profileImage} alt="profile image" />
+                        <Icons />
+                        <DoughnutChart />
+                    </div>
 
-                    <div id="iam">
+                    <div className="mobile_vertical">
                         <h4 className="intro">i make my life for my children</h4>
                         <h4 className="intro">i am a shade tree mechanic</h4>
                     </div>
 
                     <NavButtons />
+
 
                 </MediaQuery>
 

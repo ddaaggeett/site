@@ -61,7 +61,7 @@ class Form extends Component {
             </MediaQuery>
 
             <MediaQuery minWidth={992}>
-            <div id="form" className="center_item">
+            <div id="form" className="mobile_vertical">
                 <input
                     className="form_item"
                     placeholder="your email address"
@@ -98,7 +98,14 @@ class Contact extends Component {
                 <WelcomeMat />
 
                 <div className="mobile_vertical">
-                    <h4 className="topic_mobile">contact me:</h4>
+                    <MediaQuery maxWidth={991}>
+                        <h4 className="topic_mobile">contact me:</h4>
+                    </MediaQuery>
+                    <MediaQuery minWidth={992}>
+                        <div id="projects">
+                            <h2>contact me:</h2>
+                        </div>
+                    </MediaQuery>
                     <Form />
                 </div>
 

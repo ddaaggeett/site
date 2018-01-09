@@ -29,7 +29,7 @@ class Icons extends Component {
                 </MediaQuery>
 
                 <MediaQuery minWidth={992}>
-                    <div className="media_item" id="contact_me">
+                    <div className="intro_line_item" id="icons">
                         <a className="icon"
                             href="https://github.com/ddaaggeett"
                             target="_blank" >

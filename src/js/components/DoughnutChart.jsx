@@ -20,7 +20,7 @@ class DoughnutChart extends Component {
                                     endAngle={270}
                                     data={occupation}
                                     cx={196} cy={80}
-                                    fill="#ffd700"
+                                    fill="#8AACB8"
                                     innerRadius={40}
                                     outerRadius={75}
                                     dataKey="value" />
@@ -38,8 +38,8 @@ class DoughnutChart extends Component {
                                     startAngle={90}
                                     endAngle={270}
                                     data={occupation}
-                                    cx={396} cy={200}
-                                    fill="#ffd700"
+                                    cx={396} cy={150}
+                                    fill="#8AACB8"
                                     innerRadius={80}
                                     outerRadius={150}
                                     dataKey="value" />
