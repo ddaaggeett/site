@@ -11,8 +11,13 @@ class Home extends Component {
 
     render() {
 
-        var videoWidth = document.documentElement.clientWidth
-        var videoHeight = videoWidth * 9 / 16
+        var videoWidth = 0
+        var videoHeight = 0
+
+        if(typeof window !== 'undefined') {
+            videoWidth = document.documentElement.clientWidth
+            videoHeight = videoWidth * 9 / 16
+        }
 
         return (
             <div>
