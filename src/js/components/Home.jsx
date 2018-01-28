@@ -24,6 +24,7 @@ class Home extends Component {
     }
 
     componentWillMount() {
+        this.socket.emit('getSpreadsheetData')
         this.socket.on('mountSpreadsheetData', function(data) {
             console.log('table data\n',data)
             // this.handleDataRetrieval(data)
