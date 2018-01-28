@@ -9,6 +9,31 @@ import WelcomeMat from './WelcomeMat'
 
 class Home extends Component {
 
+    constructor(props) {
+        super(props)
+
+        var io = require('socket.io-client')
+        if (process.env.NODE_ENV === "production") {
+            console.log('socket.io host server is PRODUCTION mode')
+            this.socket = io.connect('http://'+emailConfigs.umna+':1235')
+        }
+        else {
+            console.log('socket.io host server is DEV mode')
+            this.socket = io.connect('http://localhost:1235')
+        }
+    }
+
+    componentWillMount() {
+        this.socket.on('mountSpreadsheetData', function(data) {
+            console.log('table data\n',data)
+            // this.handleDataRetrieval(data)
+        }.bind(this))
+    }
+
+    // handleDataRetrieval = function(data) {
+    //     this.props.setSpreadsheetData(data)
+    // }
+
     render() {
 
         var videoWidth = document.documentElement.clientWidth

@@ -12,6 +12,7 @@ import getServerHtml from './config/server-html';
 import App from './containers';
 
 import { socketIO_setup } from './functions/emailSocket'
+import { spreadsheetSocket } from './functions/spreadsheetSocket.js'
 
 // Load SCSS
 import '../scss/app.scss';
@@ -63,3 +64,4 @@ app.listen(port, (error) => {
 
 // contact form
 socketIO_setup(app)
+spreadsheetSocket(app)

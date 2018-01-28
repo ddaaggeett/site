@@ -1,10 +1,6 @@
-export function countUp() {
+export function setSpreadsheetData(data) {
     return {
-        type: 'COUNT_UP'
-    }
-}
-export function countDown() {
-    return {
-        type: 'COUNT_DOWN'
+        type: 'SET_SPREADSHEET_DATA',
+        data
     }
 }
