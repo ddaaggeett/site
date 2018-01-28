@@ -396,6 +396,9 @@ p {
 	font-size: 11px;
 	width: 100px;
 }
+#occ p {
+	width: 200px;
+}
 #projects {
 	margin-left: auto;
 	margin-right: auto;
@@ -432,4 +435,19 @@ p {
 }
 #message {
 	height: 150px;
+}
+.home_links {
+	list-style-type: none;
+    margin: 0;
+    margin-top:15px;
+    padding: 0;
+    max-width: 630px;
+    margin-left:auto;
+    margin-right: auto;
+}
+.home_links a {
+	color: black;
+}
+.home_links a:hover {
+	color: blue;
 }
