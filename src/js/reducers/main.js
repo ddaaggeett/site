@@ -1,22 +1,15 @@
 const initialState = {
-	count: 0,
+	homeLinks: []
 }
 
 export default function main(state = initialState, action) {
 	switch(action.type) {
 
-		case 'COUNT_UP':
+		case 'SET_SPREADSHEET_DATA':
 
 			return {
 				...state,
-				count: state.count + 1
-			}
-
-		case 'COUNT_DOWN':
-
-			return {
-				...state,
-				count: state.count - 1
+				homeLinks: action.data[0]
 			}
 
 		default:
