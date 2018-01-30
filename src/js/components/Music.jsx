@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom'
 import MediaQuery from 'react-responsive'
 import WelcomeMat from './WelcomeMat'
 import MusicList from './dumb/MusicList'
+import { emailConfigs } from '../../../configs/emailConfigs'
 
 class Music extends Component {
 
