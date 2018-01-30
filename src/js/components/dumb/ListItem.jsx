@@ -3,9 +3,6 @@ import MediaQuery from 'react-responsive'
 
 const ListItem = (props) => {
 
-    console.log('text = ',props.item[0])
-    console.log('link = ',props.item[1])
-
     return (
         <div>
             <MediaQuery maxWidth={991}>

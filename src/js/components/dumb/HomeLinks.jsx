@@ -2,29 +2,29 @@ import React from 'react'
 import ListItem from './ListItem'
 import MediaQuery from 'react-responsive'
 
-const HomeLinks = (props) => {
+const mapper = (props) => {
+    return (
+        props.list.map((item, index) => {
+            return (
+                <ListItem item={item} key={index} />
+            )
+        })
+    )
+}
 
-    console.log('listing = \n', props.list)
+const HomeLinks = (props) => {
 
     return (
         <div>
             <MediaQuery maxWidth={991} >
                 <ul className="center_item" className="home_links" id="quotes_mobile">
-                    {props.list.map((item) => {
-                        return (
-                            <ListItem item={item} />
-                        )
-                    })}
+                    { mapper(props) }
                 </ul>
             </MediaQuery>
 
             <MediaQuery minWidth={992} >
                 <ul className="center_item" className="home_links" id="quotes">
-                    {props.list.map((item) => {
-                        return (
-                            <ListItem item={item} />
-                        )
-                    })}
+                    { mapper(props) }
                 </ul>
             </MediaQuery>
         </div>

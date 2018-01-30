@@ -1,5 +1,6 @@
 const initialState = {
-	homeLinks: []
+	homeLinks: [],
+	musicLinks: []
 }
 
 export default function main(state = initialState, action) {
@@ -9,7 +10,8 @@ export default function main(state = initialState, action) {
 
 			return {
 				...state,
-				homeLinks: action.data[0]
+				homeLinks: action.data[0],
+				musicLinks: action.data[1]
 			}
 
 		default:

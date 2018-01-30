@@ -4,7 +4,7 @@ import { Route } from 'react-router-dom'
 import Main from './Main'
 import Projects from '../components/Projects'
 import Contact from '../components/Contact'
-import Music from '../components/Music'
+import Music from './Music'
 
 export default class App extends Component {
   render() {
