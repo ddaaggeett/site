@@ -1,6 +1,7 @@
 const initialState = {
 	homeLinks: [],
-	musicLinks: []
+	musicLinks: [],
+	projectLinks: [],
 }
 
 export default function main(state = initialState, action) {
@@ -11,7 +12,8 @@ export default function main(state = initialState, action) {
 			return {
 				...state,
 				homeLinks: action.data[0],
-				musicLinks: action.data[1]
+				musicLinks: action.data[1],
+				projectLinks: action.data[2],
 			}
 
 		default:

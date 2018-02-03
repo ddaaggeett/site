@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Route } from 'react-router-dom'
 
 import Main from './Main'
-import Projects from '../components/Projects'
+import Projects from './Projects'
 import Contact from '../components/Contact'
 import Music from './Music'
 

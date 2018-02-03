@@ -20,7 +20,7 @@ export const spreadsheetSocket = (app) => {
             gsjson({
                 spreadsheetId: spreadsheet_document,
                 listOnly: true,
-                worksheet: [0,1]
+                worksheet: [0,1,2]
             })
             .then(function(data) {
                 socket.emit('mountSpreadsheetData', data)
