@@ -6,6 +6,7 @@ import Projects from './Projects'
 import Contact from '../components/Contact'
 import UMNAsubscribe from '../components/UMNAsubscribe'
 import Music from './Music'
+import ClientPitch from './ClientPitch'
 
 export default class App extends Component {
   render() {
@@ -16,6 +17,7 @@ export default class App extends Component {
             <Route path="/contact" component={Contact}/>
             <Route path="/music" component={Music}/>
             <Route path="/umna" component={UMNAsubscribe}/>
+            <Route path="/njauto" component={ClientPitch}/>
         </div>
     );
   }
