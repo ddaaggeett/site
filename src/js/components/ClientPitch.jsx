@@ -23,15 +23,13 @@ class ClientPitch extends Component {
     componentDidMount() {
         this.socket.emit('getMarkdown')
         this.socket.on('serveMarkdown', function(mdString) {
-            document.getElementById('root').innerHTML = marked(mdString)
+            document.getElementById('md').innerHTML = marked(mdString)
         })
     }
 
     render() {
         return (
-            <div>
-
-            </div>
+            <div id="md" />
         )
     }
 }

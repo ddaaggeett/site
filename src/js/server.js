@@ -66,4 +66,4 @@ app.listen(port, (error) => {
 // contact form
 socketIO_setup(app)
 spreadsheetSocket(app)
-serveMarkdown(app,'njauto')
+serveMarkdown(app,'markdownfile')

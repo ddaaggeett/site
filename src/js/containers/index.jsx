@@ -17,7 +17,7 @@ export default class App extends Component {
             <Route path="/contact" component={Contact}/>
             <Route path="/music" component={Music}/>
             <Route path="/umna" component={UMNAsubscribe}/>
-            <Route path="/njauto" component={ClientPitch}/>
+            <Route path="/markdownfile" component={ClientPitch}/>
         </div>
     );
   }
