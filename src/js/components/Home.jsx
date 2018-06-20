@@ -1,10 +1,6 @@
 import React, { Component } from 'react'
 import MediaQuery from 'react-responsive'
 import { Link } from 'react-router-dom'
-
-import { PieChart, Pie, Tooltip } from 'recharts'
-import { occupation } from './data'
-
 import WelcomeMat from './WelcomeMat'
 import HomeLinks from './dumb/HomeLinks'
 import { emailConfigs } from '../../../configs/emailConfigs'

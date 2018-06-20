@@ -35,16 +35,13 @@ body{
 }
 .topic_mobile {
 	margin-top: 5%;
-	// position: relative;
 	display:block;
-	// width: 50%;
-	// text-align: center;
 	margin-left: 20px;
 	font-size: 20px;
 }
 .icon {
-	margin-top: 20px;
-	display: block;
+	margin: 20px;
+	display: inline-block;
 }
 .icon_mobile {
 	margin-bottom: 20px;
@@ -53,21 +50,18 @@ body{
 #icons {
 	position: absolute;
 	top:40px;
-	width:50px;
+	width:45%;
 	margin-left: 55%;
 	z-index: 1;
 }
 #icons_mobile {
 	position: absolute;
-	top:40px;
-	width:50px;
+	top: 0;
 	margin-left: 55%;
 	z-index: 1;
 }
 .intro_line_item {
 	vertical-align: middle;
-	// display: inline-block;
-	// width: 50%;
 	margin-left: 51%;
 }
 #contact_me {
@@ -102,7 +96,7 @@ body{
 #profile_pic {
 	border:  1px solid #8AACB8;
 	border-radius: 100%;
-	max-width: 350px;
+	max-width: 150px;
 	width: 30%;
 	margin: 0;
 	margin-left:200px;
@@ -110,9 +104,9 @@ body{
 #profile_pic_mobile {
 	border:  1px solid #8AACB8;
 	border-radius: 100%;
-	max-width: 350px;
+	max-width: 150px;
 	width: 50%;
-	margin-left: 10px;
+	margin-right: 10px;
 }
 #video {
 	box-sizing: border-box;

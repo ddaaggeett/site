@@ -18,20 +18,20 @@ class Icons extends Component {
                             href="https://www.youtube.com/channel/UCJxVVEGm6TFz68Y9Qe3IZtA"
                             target="_blank" >
                             <img src={youtubeIcon}
-                                alt="software"
-                                style={{width: 90, height: 45, marginLeft: -2}} /></a>
+                                alt="youtube"
+                                style={{width: 80, height: 30, marginLeft: -2}} /></a>
                         <a className="icon_mobile"
                             href="https://github.com/ddaaggeett"
                             target="_blank" >
                             <img src={softwareIcon}
                                 alt="software"
-                                style={{width: 45, height: 45, marginLeft: -2}} /></a>
+                                style={{width: 35, height: 35, marginLeft: -2}} /></a>
                         <a className="icon_mobile"
                             href="https://twitter.com/ddaaggeett"
                             target="_blank" >
                             <img src={twitterIcon}
                                 alt="social"
-                                style={{width: 40, height: 40}} /></a>
+                                style={{width: 30, height: 30}} /></a>
                     </div>
                 </MediaQuery>
 
@@ -41,7 +41,7 @@ class Icons extends Component {
                             href="https://www.youtube.com/channel/UCJxVVEGm6TFz68Y9Qe3IZtA"
                             target="_blank" >
                             <img src={youtubeIcon}
-                                alt="software"
+                                alt="youtube"
                                 style={{width: 90, height: 45, marginLeft: -2}} /></a>
                         <a className="icon"
                             href="https://github.com/ddaaggeett"
