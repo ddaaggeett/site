@@ -64,6 +64,7 @@
     "immutable": "^3.8.1",
     "isomorphic-fetch": "^2.2.1",
     "marked": "^0.3.19",
+    "mixin-deep": "^2.0.0",
     "moment": "^2.22.1",
     "node-sass": "^4.5.3",
     "nodemailer": "^4.4.1",
