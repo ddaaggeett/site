@@ -7,13 +7,22 @@ const initialState = {
 export default function main(state = initialState, action) {
 	switch(action.type) {
 
-		case 'SET_SPREADSHEET_DATA':
-
+		case 'SET_HOME_LINKS_DATA':
 			return {
 				...state,
-				homeLinks: action.data[0],
-				musicLinks: action.data[1],
-				projectLinks: action.data[2],
+				homeLinks: action.data,
+			}
+
+		case 'SET_MUSIC_LINKS_DATA':
+			return {
+				...state,
+				musicLinks: action.data,
+			}
+
+		case 'SET_PROJECT_LINKS_DATA':
+			return {
+				...state,
+				projectLinks: action.data,
 			}
 
 		default:
