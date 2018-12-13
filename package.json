@@ -1,10 +1,10 @@
 {
-  "name": "personal_site",
+  "name": "ddaaggeett",
   "author": "Dave Daggett (david.g.daggett@gmail) <https://github.com/ddaaggeett>",
   "description": "personal website",
-  "homepage": "https://github.com/ddaaggeett/personal_site#readme",
+  "homepage": "https://github.com/ddaaggeett/ddaaggeett.xyz#readme",
   "bugs": {
-    "url": "https://github.com/ddaaggeett/personal_site/issues"
+    "url": "https://github.com/ddaaggeett/ddaaggeett.xyz/issues"
   },
   "version": "0.0.1",
   "private": "false",
@@ -26,9 +26,12 @@
     "gatsby-plugin-sharp": "^2.0.15",
     "gatsby-source-filesystem": "^2.0.8",
     "gatsby-transformer-sharp": "^2.1.8",
+    "get-sheet-done": "^0.1.5",
     "react": "^16.6.3",
     "react-dom": "^16.6.3",
-    "react-helmet": "^5.2.0"
+    "react-helmet": "^5.2.0",
+    "react-redux": "^6.0.0",
+    "redux": "^4.0.1"
   },
   "keywords": [
     "gatsby"
@@ -39,6 +42,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ddaaggeett/testgatsby"
+    "url": "https://github.com/ddaaggeett/ddaaggeett.xyz"
   }
 }
