@@ -424,13 +424,13 @@ p {
     box-sizing: border-box;
 	font-size: 18px;
 }
-#form {
-	width: 500px;
-	margin-left: auto;
-	margin-right: auto;
-}
-#form_mobile {
+.form_mobile {
 	width: 100%;
+}
+.form_full {
+	width: 500px;
+	margin-right: auto;
+	margin-left: auto;
 }
 #form_submit {
 	width: 100%;
