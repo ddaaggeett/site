@@ -23,7 +23,7 @@
     "gatsby-plugin-manifest": "^2.8.0",
     "gatsby-plugin-offline": "^2.2.10",
     "gatsby-plugin-react-helmet": "^3.6.0",
-    "gatsby-plugin-sharp": "^2.10.1",
+    "gatsby-plugin-sharp": "^4.25.1",
     "gatsby-source-filesystem": "^2.7.0",
     "gatsby-transformer-sharp": "^2.8.0",
     "get-sheet-done": "^0.1.5",
